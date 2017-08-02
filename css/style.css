@@ -603,6 +603,34 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline-offset: none;
 }
 /* Media Queries */
+@media(min-width: 350px){
+.intro {
+	height: 100%;
+	margin-top: -20vh;
+	text-align: center;
+	/*vertical-align: top;*/
+	color: #F6CECE;
+}
+.intro H1 {
+	font-size: 40px;
+	font-weight: 300;
+	letter-spacing: -2px;
+}
+.intro .name {
+	font-weight: 500;
+
+}
+.intro #intro-text {
+	max-width: 75%;
+}
+.intro #intro-text p {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+}
+
 @media(min-width:768px) {
 .intro {
 	height: 100%;
